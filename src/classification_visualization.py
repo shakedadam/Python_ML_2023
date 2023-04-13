@@ -8,7 +8,7 @@ def load_and_plot(path):
     if 'decision_boundry' in data.columns:
         return data, plot_data_with_decsion_boundry(data, 'decision_boundry')
     else:
-        fig = px.scatter(data, x='x',y='y',color='class_id', template='plotly_white').update_traces(marker=dict(size=12, line=dict(width=2, color='DarkSlateGrey')), selector=dict(mode='markers'))
+        fig = px.scatter(data, x='x',y='y',color='class_id', template='plotly_white', height=600).update_traces(marker=dict(size=12, line=dict(width=2, color='DarkSlateGrey')), selector=dict(mode='markers'))
     return data, fig
 
 def plot_data_with_decsion_boundry(data, decision_boundry_col, class_col = 'class_id', title='None', line_legened='Decision Boundry', update_markers = True, marker_size=12, line_width=2):
