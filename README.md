@@ -25,6 +25,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 Install requirements:
 
 ```bash
+conda config --append channels conda-forge
 conda install --file requirements.txt
 ```
 

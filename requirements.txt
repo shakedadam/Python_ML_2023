@@ -3,5 +3,7 @@ numpy
 pandas
 scikit-learn==1.2.2
 matplotlib
+plotly
 plotly_express
-
+ipython
+jupyterlab
