@@ -7,3 +7,4 @@ plotly
 plotly_express
 ipython
 jupyterlab
+tensorflow

@@ -24,6 +24,14 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 Install requirements:
 
+Using pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+Using conda:
+
 ```bash
 conda config --append channels conda-forge
 conda install --file requirements.txt
